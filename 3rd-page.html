@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Preparation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    }
+
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
+    }
+
+    header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #0d3206;
+    }
+
+    .explore-all {
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    color: #0d3206;
+    border: 2px solid #0d3206;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    .explore-all:hover {
+    background-color: #636e72;
+    }
+
+    .exam-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    }
+
+    .exam-card {
+    flex: 1 1 calc(33.333% - 2rem);
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #0d3206;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    }
+
+    .exam-card h2 {
+    margin: 0 0 1rem;
+    font-size: 1.5rem;
+    /* color: #2d3436; */
+    }
+
+    .exam-card p {
+    margin: 0;
+    }
+
+    .bcs-model-test {
+    background-color: #2d3436;
+    color: #fff;
+    }
+
+    .primary-exam, .nsi-exam{
+    background-color: wheat;
+    }
+
+    .bank-exam, .railway-exam{
+        background-color: #0d3206;
+    }
+
+    .primary-exam h2, .nsi-exam h2{
+    color: #0d3206;
+    }
+
+    .bank-exam h2, .railway-exam h2{
+        color: #fff;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lets Sharp Your Preparation</h1>
+        <button class="explore-all">Explore All</button>
+    </header>
+    <section class="exam-categories">
+        <div class="exam-card">
+            <div class="image-container">
+                <img src=" " alt="BCS Model Test Image">
+            </div>
+            <h2>BCS Model Test</h2>
+            <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam placerat tortor commodo lectus laoreet venenatis.</p>
+        </div>
+        <div class="exam-card primary-exam">
+            <h2>Primary Exam</h2>
+            <div class="image1">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="exam-card bank-exam">
+            <h2>Bank Exam</h2>
+            <div class="image1">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="exam-card nsi-exam">
+            <h2>NSI Exam</h2>
+            <div class="image1">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="exam-card railway-exam">
+            <h2>Railway Exam</h2>
+            <div class="image1">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
