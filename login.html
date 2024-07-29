@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+        <div class="grid-item" id="l-image" class="login" style="border: 2px solid black;">
+
+            <!-- Login page left side image display -->
+                <img src="Homepage/login-books.jpg" width="100%" alt="An image of a book">
+                <!-- <div class="center">Those people who develop the ability to continuously acquire new and better forms of knowledge that they can apply to their work and to their lives will be the movers and shakers in our society for the indefinite future
+
+                    Brian Tracy
+                </div> -->
+        </div>
+
+        <div class="grid-item" id="g2">
+
+            <!-- Login page right side symbols display -->
+
+            <!-- Site Logo -->
+            <div id="intro">
+                <img src="logo.png" alt="Site Logo" height="40px" style="float: left;">
+                <p class="login" id="comp-name" style="float: left; margin-top: 0.3%;" >QuizSphere</p>
+            </div>
+
+            <br>
+
+            <!-- Login Box -->
+             <div id="form" style="border: 2px solid black;"">
+                    <p class="login" id="first">Login to your Account</p>
+                <p class="login" id="second" style="margin: 1% 0% 5%;">with your registered Email Address</p>
+                <div class="login">
+                    <form action="dashboard.html">
+                        <label for="email" class="form">Email address</label><br>
+                        <input type="email" id="email" class="form" required><br>
+                        <label for="password" class="form">Enter password</label><br>
+                        <input type="password" id="password" class="form" required><br>
+                        <div class="remember">
+                            <input type="checkbox" name="" id="remember" checked>
+                            <label for="remember">Remember my password</label><br>
+                        </div>
+                        
+
+                        <button type="submit" class="form" style="background-color: #1935CA; color: white;">Login</button>
+
+                        <p class="login" class="form" >Dont have an account ? </p>
+                        <button onclick="sign-up.html" type="submit" class="form" id="signup">Signup instead</button>
+
+                        <a href="forgot-pw.html" class="login" id="forgot" class="form">Forgot Password ?</a>
+                    </form>
+                </div>
+             </div>
+            
+        </div>
+</body>
+</html>
