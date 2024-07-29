@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50%;
+    gap: 0px;
+    height: 100%;
+}
+
+.grid-item{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.login{
+    color: #1935CA;
+}
+
+/* .l-image{
+    position: relative;
+    display: inline-block;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: max-content;
+} */
+
+.intro{
+    margin: 10px 0px 10px 20px;
+}

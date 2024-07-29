@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login-style.css">
+</head>
+<body>
+    <div class="grid-container">
+
+        <div class="grid-item">
+
+            <!-- Login page left side image display -->
+            <div id="l-image" class="login">
+                <img src="login-books.jpg" alt="An image of a book">
+            </div>
+        </div>
+
+        <div class="grid-item">
+
+            <!-- Login page right side symbols display -->
+
+            <!-- Site Logo -->
+            <div class="intro">
+                <img src="" alt="Site Logo">
+                <p class="login" id="comp-name">QuizSphere</p>
+            </div>
+
+            <!-- Login Box -->
+            <p class="login" id="first">Login to your Account</p>
+            <p class="login" id="second">with your registered Email Address</p>
+            <div class="login">
+                <form action="dashboard.html">
+                    <label for="email">Email address</label>
+                    <input type="email" name="" id="email">
+                    <label for="password">Enter password</label>
+                    <input type="password" name="" id="password">
+                    <input type="checkbox" name="" id="remember">
+                    <label for="remember">Remember my password</label>
+
+                    <button type="submit">Login</button>
+
+                    <p class="login">Dont have an account ? </p>
+                    <button onclick="sign-up.html" type="submit">Signup instead</button>
+
+                    <p class="login" id="forgot">Forgot Password ?</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
