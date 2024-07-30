@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="try.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <img src="Assets/logo.png" class="circle" alt="Site Logo">
+        <p id="comp-name">Cyberverdict</p>
+        <input type="text" placeholder="Search Quiz" id="search-qz">
+        <button type="submit">Start Quiz</button>
+        <img src="Assets/KNP.png" class="circle" alt="User">
+        <p id="name">Michael Clifford</p>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="box" id="selected">
+            <img src="Assets/db-selected1.png" alt="">
+            <a href="#" style="color: white;">Dashboard</a>
+        </div>
+        <div class="box">
+            <img src="Assets/notification-unselected.png" alt="">
+            <a href="#">Notification</a>
+        </div>
+        <div class="box">
+            <img src="Assets/trophy-unselected.png" alt="">
+            <a href="#">Achievements</a>
+        </div>
+        <div class="box">
+            <img src="Assets/hist-unselected1.png" alt="">
+            <a href="#">Quiz History</a>
+        </div>
+        <div class="support">
+            <p>Support 24/7</p>
+            <button id="support-btn">Start</button>
+        </div>
+        <div class="box" id="end">
+            <img src="Assets/log-out.png" alt="">
+            <a href="#" style="font-weight: bold;">Log Out</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="Assets/KNP.png" alt="User" class="profile-pic">
+            <div class="profile-details">
+                <p class="name">Michael Clifford</p>
+                <p class="level">Bonus booster 24lv</p>
+                <div class="stats">
+                    <div class="stat-box">
+                        <p>27</p>
+                        <p>Quiz Passed</p>
+                    </div>
+                    <div class="stat-box">
+                        <p>27min</p>
+                        <p>Fastest Time</p>
+                    </div>
+                    <div class="stat-box">
+                        <p>200</p>
+                        <p>Correct Answers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Quizzes Section -->
+        <div class="featured-quizzes">
+            <h2>Featured Quizzes</h2>
+            <div class="quiz-cards">
+                <div class="quiz-card">
+                    <div class="quiz-image"></div>
+                    <p>Protecting the Organization against Phishing Attacks</p>
+                    <p class="quiz-time">15 min</p>
+                </div>
+                <div class="quiz-card">
+                    <div class="quiz-image"></div>
+                    <p>Ransomware and Attack Landscape in Corporate</p>
+                    <p class="quiz-time">15 min</p>
+                </div>
+                <div class="quiz-card">
+                    <div class="quiz-image"></div>
+                    <p>Keeping Debit & Credit Cards safe. <br> Best Practices</p>
+                    <p class="quiz-time">15 min</p>
+                </div>
+                <div class="quiz-card">
+                    <div class="quiz-image"></div>
+                    <p>Protecting the Organization against Phishing Attacks</p>
+                    <p class="quiz-time">15 min</p>
+                </div>
+                <div class="quiz-card">
+                    <div class="quiz-image"></div>
+                    <p>Ransomeware and Attack Landscape in Coporate.</p>
+                    <p class="quiz-time">15 min</p>
+                </div>
+                <div class="quiz-card">
+                    <div class="quiz-image"></div>
+                    <p>Keeping Debit & Credit Cards safe. <br>
+                        Best Practices</p>
+                    <p class="quiz-time">15 min</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Other Users Online Section -->
+        <div class="other-users">
+            <h2>Other Users Online</h2>
+            <div class="user-icons">
+                <div class="user-icon"> <img src="" alt=""><!-- Placeholder for user icon --></div>
+                <div class="user-icon"><!-- Placeholder for user icon --></div>
+                <div class="user-icon"><!-- Placeholder for user icon --></div>
+                <div class="user-icon"><!-- Placeholder for user icon --></div>
+                <div class="user-icon"><!-- Placeholder for user icon --></div>
+                <div class="user-icon"><!-- Placeholder for user icon --></div>
+            </div>
+        </div>
+
+        <!-- Achievements Section -->
+        <div class="achievements">
+            <h2>Achievements</h2>
+            <div class="achievement-icons">
+                <div class="achievement-icon"><!-- Placeholder for achievement icon --></div>
+                <div class="achievement-icon"><!-- Placeholder for achievement icon --></div>
+                <div class="achievement-icon"><!-- Placeholder for achievement icon --></div>
+            </div>
+        </div>
+
+        <!-- Reminders Section -->
+        <div class="reminders">
+            <h2>Reminders</h2>
+            <ul>
+                <li>Control Your Account - Due Today</li>
+                <li>Clear Desk Policy - Due Next Week</li>
+                <li>Use of Flash Drives - Due May 15th</li>
+                <li>Reporting an Incident - Due June 23rd</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
