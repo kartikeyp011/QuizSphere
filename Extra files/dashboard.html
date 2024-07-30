@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <img src="Assets/logo.png" class="circle" alt="Site Logo">
+        <p id="comp-name">Cyberverdict</p>
+        <input type="text" placeholder="Search Quiz" id="search-qz" style="padding-left: 2%;">
+        <!-- <button type="submit">Start Quiz</button> -->
+        <img src="Assets/KNP.png" class="circle" alt="User">
+        <p id="name">Kartikey</p>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="box" id="selected">
+            <img src="Assets/db-selected1.png" alt="">
+            <a href="#" style="color: white;">Dashboard</a>
+        </div>
+        <div class="box">
+            <img src="Assets/notification-unselected.png" alt="">
+            <a href="#">Notification</a>
+        </div>
+        <div class="box">
+            <img src="Assets/trophy-unselected.png" alt="">
+            <a href="#">Achievements</a>
+        </div>
+        <div class="box">
+            <img src="Assets/hist-unselected1.png" alt="">
+            <a href="#">Quiz History</a>
+        </div>
+        <footer class="box" id="end">
+            <img src="Assets/log-out.png" alt="">
+            <a href="#" style="font-weight: bold;">Log Out</a>
+        </footer>
+        
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="Assets/KNP.png" alt="User" class="profile-pic">
+            <div class="profile-details">
+                <p class="name">Kartikey Narain Prajapati</p>
+                <p class="level">Bonus booster 24lv</p>
+                <div class="stats">
+                    <div class="stat-box">
+                        <p class="imp">27</p>
+                        <p class="non-imp">Quiz Passed</p>
+                    </div>
+                    <div class="stat-box">
+                        <p class="imp">27min</p>
+                        <p class="non-imp">Fastest Time</p>
+                    </div>
+                    <div class="stat-box">
+                        <p class="imp">200</p>
+                        <p class="non-imp">Correct Answers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Quizzes Section -->
+        <div class="featured-quizzes">
+            <h2>Featured Domains</h2>
+            <div class="quiz-cards">
+                <div class="quiz-card" id="q1" onclick="redirectToQuiz('9')">
+                </div>
+                <div class="quiz-card" id="q2" onclick="redirectToQuiz('17')">
+                </div>
+                <div class="quiz-card" id="q3" onclick="redirectToQuiz('23')">
+                </div>
+                <div class="quiz-card" id="q4" onclick="redirectToQuiz('11')">
+                </div>
+                <div class="quiz-card" id="q5" onclick="redirectToQuiz('22')">
+                </div>
+                <div class="quiz-card" id="q6" onclick="redirectToQuiz('27')">
+                </div>                
+            </div>
+        </div>
+
+        <!-- Other Users Online Section -->
+        <div class="other-users">
+            <h2>Other Users Online</h2>
+            <div class="user-icons">
+                <div class="user-icon" id="u1"> </div>
+                <div class="user-icon" id="u2"> </div>
+                <div class="user-icon" id="u3"> </div>
+                <div class="user-icon" id="u4"> </div>
+                <div class="user-icon" id="u5"> </div>
+                <div class="user-icon" id="u6"> </div>
+            </div>
+        </div>
+
+        <!-- Achievements Section -->
+        <div class="achievements">
+            <h2>Achievements</h2>
+            <div class="achievement-icons">
+                <div class="achievement-icon"><img id="ac1" src="Assets/streak.png" alt="">Streak</div>
+                <!-- <div class="achievement-icon">Placeholder for achievement icon</div>
+                <div class="achievement-icon">Placeholder for achievement icon</div> -->
+            </div>
+        </div>
+
+        <!-- Reminders Section -->
+        <div class="reminders">
+            <h2>Reminders</h2>
+            <ul>
+                <li>Control Your Account - Due Today</li>
+                <li>Clear Desk Policy - Due Next Week</li>
+                <li>Use of Flash Drives - Due May 15th</li>
+                <li>Reporting an Incident - Due June 23rd</li>
+            </ul>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,369 @@
+*{
+margin-left: 1%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color: #FBF9F9;
+    color: #1935CA;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.nav {
+    position: fixed;
+    margin: 0;
+    padding-top: 0.5vw;
+    background-color: #FBF9F9;
+    height: 5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* background-color: white; */
+}
+
+.circle {
+    border-radius: 100%;
+    width: 2.4%;
+    /* border: 2px solid #1935CA; */
+}
+
+#comp-name {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1935CA;
+}
+
+#search-qz {
+    height: 3vw;
+    width: 66%;
+    margin-left: 5vw;
+    margin-right: 2vw;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 10px 20px -2px rgba(0, 0, 0, 0.05);
+}
+
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 2%;
+    border: none;
+    background-color: #1935CA;
+    color: white;
+    height: 3vw;
+    padding: 0 3%;
+    border-radius: 6px;
+}
+
+#name {
+    color: #696F79;
+}
+
+.sidebar {
+    width: 12vw;
+    /* border-right: 1px solid #ddd; */
+    position: fixed;
+    height: 100vh;
+    padding-top: 8vw;
+    /* background-color: white; */
+}
+
+.box {
+    font-size: 15px;
+    padding: 01vw;
+    margin: 1vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left:1.5vw;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+a {
+    color: #696F79;
+    margin-left: 1vw;
+    text-decoration: none;
+}
+
+#selected {
+    background-color: #1935CA;
+    color: white;
+}
+
+.box img {
+    height: 20px;
+}
+
+.support {
+    /* border: 2px solid #1935CA; */
+    border-radius: 10px;
+    padding: 2vw;
+    text-align: center;
+    margin-top: 2vw;
+    color: white;
+    background-color: #1935CA;
+}
+
+#support-btn {
+    margin-top: 1vw;
+    background-color: white;
+    color: #1935CA;
+    border: none;
+    padding: 0.5vw 2vw;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#end {
+    margin-top: auto;
+}
+
+.main-content {
+    margin-left: 14vw;
+    padding: 2vw;
+}
+
+.profile {
+    display: flex;
+    /* align-items: center; */
+    background-color: white;
+    padding: 2vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 10px 20px -2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2vw;
+    margin-top: 9vh;
+}
+
+.profile-pic {
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    border: 2px solid #1935CA;
+}
+
+.profile-details {
+    margin-top: 1.5%;
+    margin-left: 2vw;
+}
+
+.name {
+    margin: 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.level {
+    color: #696F79;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 5%;
+}
+
+.stats {
+    display: flex;
+    margin-top: 0.5vw;
+}
+
+.stat-box {
+    text-align: center;
+    margin-right: 2vw;
+}
+
+.stat-box p {
+    margin: 0;
+}
+
+.imp{
+    color: #1935CA;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.non-imp{
+    color: #696F79;
+}
+
+.featured-quizzes {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 10px 20px -2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2vw;
+}
+
+.featured-quizzes h2 {
+    margin: 0 0 1vw 0;
+}
+
+.quiz-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensure proper spacing between cards */
+}
+
+.quiz-card {
+    width: 30%; /* Adjust the width to allow for three cards per row */
+    height: 31vh;
+    margin: 1vw 0; /* Margin to add spacing between rows */
+    padding: 1vw;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 10px 20px -2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.quiz-card p{
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 1% 5%;
+    border-radius: 5px;
+    /* background-color: rgba(0, 0, 0, 0.61); */
+    backdrop-filter: blur(5px);
+}
+
+.quiz-card#q1{
+    background-image: url(Assets/gk.png);
+}
+
+.quiz-card#q2{
+    background-image: url(Assets/science.jpeg);
+}
+
+.quiz-card#q3{
+    background-image: url(Assets/history.jpg);
+}
+
+.quiz-card#q4{
+    background-image: url(Assets/entertainment.png);
+}
+
+.quiz-card#q5{
+    background-image: url(Assets/geography.jpg);
+}
+
+.quiz-card#q6{
+    background-image: url(Assets/technology.jpg);
+}
+
+.quiz-time {
+    font-size: 14px;
+    color: #696F79;
+}
+
+.other-users {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 10px 20px -2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2vw;
+}
+
+.other-users h2 {
+    margin: 0 0 1vw 0;
+}
+
+.user-icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-icon {
+    width: 4vw;
+    height: 4vw;
+    background-color: #ddd;
+    border-radius: 100%;
+    margin: 0.5vw;    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#u1{
+    background-image: url(Assets/user-1.png);
+}
+
+#u2{
+    background-image: url(Assets/user-2.jpg);
+}
+#u3{
+    background-image: url(Assets/user-3.jpg);
+}
+#u4{
+    background-image: url(Assets/user-4.jpg);
+}
+#u5{
+    background-image: url(Assets/user-5.jpg);
+}
+#u6{
+    background-image: url(Assets/user-6.jpg);
+}
+
+.achievements {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 10px 20px -2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2vw;
+}
+
+.achievements h2 {
+    margin: 0 0 1vw 0;
+}
+
+.achievement-icons {
+    display: flex;
+}
+
+.achievement-icon {
+    width: 4vw;
+    height: 4vw;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 0.5vw;
+    padding: 0;
+    text-align: center;
+}
+
+#ac1{
+    /* background-image: url(Assets/streak.png); */
+    width: 100%;
+    height: 100%;
+}
+
+.reminders {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 10px 20px -2px rgba(0, 0, 0, 0.05);
+}
+
+.reminders h2 {
+    margin: 0 0 1vw 0;
+}
+
+.reminders ul {
+    padding-left: 1vw;
+}
+
+.reminders li {
+    margin: 0.5vw 0;
+}
