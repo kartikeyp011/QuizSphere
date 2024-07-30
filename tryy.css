@@ -1,0 +1,152 @@
+body{
+    font-family: 'Poppins';
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: #FBF9F9;
+    color: #1935CA;
+}
+
+.nav{
+    margin: 0%;
+    padding-top: 0.5vw;
+    border: 2px solid black;
+    height: 5vw;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+}
+
+.bar{
+    border: 2px solid black;
+    margin: 1%;
+}
+
+.circle{
+    border-radius: 100%;
+    width:2.4%;
+    border: 2px solid black;
+    /* float: left; */
+}
+
+#comp-name{
+    align-items: center;
+    justify-content: center; 
+    font-size: 25px;
+    font-weight:bold;
+    border: 2px solid black;
+    /* float: left; */
+    margin-left: 0.5%;
+    margin-right: 4%;
+}
+
+#search-qz{
+    margin: 0;
+    height: 3vw;
+    width: 55vw;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 10px 20px -2px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 3px 3px 8px -1px wheat, -3px 3px 8px -1px wheat; */
+    /* padding: 1%; */
+}
+ ::placeholder{
+}
+
+button{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 2%;
+    border: none;
+    background-color: #1935CA;
+    color: white;
+    height: 3vw;
+    padding:0 3%;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+#name{
+    margin-left: 1.1%;
+    color: #696F79;
+}
+
+.sidebar{
+    /* margin-top: 1%;   */
+    width:13vw;
+    border: 2px solid black;
+    position: sticky;
+    height: 86vh;
+    margin-left: 2.5vw;
+    float: left;
+}
+
+.box{
+    font-size: 15px;
+    padding: 0.7vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 1vw 0;
+    /* margin-left: 10%; */
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+}
+
+a{
+
+    color: #696F79;
+    margin-left: 1vw;
+    text-decoration: none;
+}
+
+#selected{
+    background-color: #1935CA;
+}
+
+.box img{
+    height: 20px;
+}
+
+.support{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 12vw;
+    background-color: #1935CA;
+    color: white;
+}
+
+.scroll{
+    float: left;
+    margin-left: 3.5vw;
+    margin-top:1.5vw;
+    border: 2px solid black;
+    width: 62vw;
+    height: 100%;
+    padding: 2vw;
+}
+
+.profile{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 20vh;
+    white-space: nowrap;
+}
+
+.profile img{
+    float: left;
+    border-radius: 10px;
+}
+
+.name{
+    border: 2px solid black;
+    float: left;
+    margin: 0 0 0 0;
+    margin-left: 2vw;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.analytics{
+}

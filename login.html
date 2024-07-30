@@ -9,7 +9,7 @@
 </head>
 <body>
 
-        <div class="grid-item" id="l-image" class="login" style="border: 2px solid black;">
+        <div class="grid-item" id="l-image" class="login">
 
             <!-- Login page left side image display -->
                 <img src="Homepage/login-books.jpg" width="100%" alt="An image of a book">
@@ -32,28 +32,29 @@
             <br>
 
             <!-- Login Box -->
-             <div id="form" style="border: 2px solid black;"">
+            <div id="form">
+                <div class="form-2">
                     <p class="login" id="first">Login to your Account</p>
-                <p class="login" id="second" style="margin: 1% 0% 5%;">with your registered Email Address</p>
-                <div class="login">
-                    <form action="dashboard.html">
-                        <label for="email" class="form">Email address</label><br>
-                        <input type="email" id="email" class="form" required><br>
-                        <label for="password" class="form">Enter password</label><br>
-                        <input type="password" id="password" class="form" required><br>
-                        <div class="remember">
-                            <input type="checkbox" name="" id="remember" checked>
-                            <label for="remember">Remember my password</label><br>
-                        </div>
-                        
-
-                        <button type="submit" class="form" style="background-color: #1935CA; color: white;">Login</button>
-
-                        <p class="login" class="form" >Dont have an account ? </p>
-                        <button onclick="sign-up.html" type="submit" class="form" id="signup">Signup instead</button>
-
-                        <a href="forgot-pw.html" class="login" id="forgot" class="form">Forgot Password ?</a>
-                    </form>
+                    <p class="login" id="second" style="margin: 1% 0% 5%;">with your registered Email Address</p>
+                    <div class="login">
+                        <form action="dashboard.html">
+                            <label for="email" class="form">Email address</label><br>
+                            <input type="email" id="email" class="form" placeholder="Enter email address" required><br>
+                            <label for="password" class="form">Enter password</label><br>
+                            <input type="password" id="password" class="form" placeholder="Password" required><br>
+                            <div class="remember">
+                                <input type="checkbox" name="" id="remember" checked>
+                                <label for="remember">Remember my password</label><br>
+                            </div>
+                            <button type="submit" class="form" id="login-btn">Login</button>
+                            
+                        </form>
+                        <form action="signup.html" method="get" id="signup-form">
+                            <p class="login" class="form">Don't have an account?</p>
+                            <button type="submit" class="form" id="signup">Signup instead</button>
+                            <a href="forgot-pw.html" class="login" id="forgot" class="form">Forgot Password ?</a>
+                        </form> 
+                    </div>
                 </div>
              </div>
             
