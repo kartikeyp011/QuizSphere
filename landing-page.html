@@ -4,324 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-    body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    }
-
-    header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f8f8f8;
-    }
-
-    .logo img {
-    width: 100px;
-    }
-
-    nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    }
-
-    nav ul li a {
-    text-decoration: none;
-    color: #333;
-    }
-
-    .contact-btn {
-    padding: 10px 20px;
-    border: 1px solid #333;
-    background-color: transparent;
-    cursor: pointer;
-    border-radius: 3px;
-    }
-
-    .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    }
-
-    .hero-content {
-    max-width: 600px;
-    }
-
-    .hero-content h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: darkgreen;
-    }
-
-    .hero-content p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: darkgreen;
-    }
-
-    .registration {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-    }
-
-    .registration input {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    }
-
-    .register-btn {
-    padding: 10px 20px;
-    background-color: #f7931e;
-    border: none;
-    color: white;
-    cursor: pointer;
-    }
-
-    .active-users {
-    font-size: 16px;
-    }
-
-    .active-users span {
-    font-size: 24px;
-    font-weight: bold;
-    }
-
-    .background-img img {
-    width: 400px;
-    }
-
-    .how-to-play {
-    text-align: center;
-    padding: 20px;
-     } 
-
-    .how-to-play h1 {
-    font-size: 2.5em;
-    color: #004d40;
-    }
-
-    .steps {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-    }
-
-    .step {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin: 10px;
-    padding: 20px;
-    width: 350px;
-    /* height: 300; */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    text-align: left;
-    }
-
-    .step-number {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 10px;
-    }
-
-    .step-content img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    }
-
-    .step-content p {
-    font-size: 1em;
-    color: #333;
-    }
-
-    header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
-    }
-
-    header h1 {
-    margin: 0;
-    font-size: 2rem;
-    color: #0d3206;
-    }
-
-    .explore-all {
-    padding: 0.5rem 1rem;
-    background-color: #ffffff;
-    color: #0d3206;
-    border: 2px solid #0d3206;
-    border-radius: 4px;
-    cursor: pointer;
-    }
-
-    .explore-all:hover {
-    background-color: #636e72;
-    }
-
-    .exam-categories {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2rem;
-    }
-
-    .exam-card {
-    flex: 1 1 calc(33.333% - 2rem);
-    margin: 1rem;
-    padding: 2rem;
-    background-color: #0d3206;
-    color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    position: relative;
-    }
-
-    .exam-card h2 {
-    margin: 0 0 1rem;
-    font-size: 1.5rem;
-    /* color: #2d3436; */
-    }
-
-    .exam-card p {
-    margin: 0;
-    }
-
-    .bcs-model-test {
-    background-color: #2d3436;
-    color: #fff;
-    }
-
-    .primary-exam, .nsi-exam{
-    background-color: wheat;
-    }
-
-    .bank-exam, .railway-exam{
-        background-color: #0d3206;
-    }
-
-    .primary-exam h2, .nsi-exam h2{
-    color: #0d3206;
-    }
-
-    .bank-exam h2, .railway-exam h2{
-        color: #fff;
-    }
-    header {
-    text-align: center;
-    padding: 50px 0;
-}
-
-.winners {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.winner {
-    text-align: center;
-}
-
-.winner img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.articles {
-    text-align: center;
-    padding: 50px 0;
-    background-color: #05424C;
-}
-
-.article-list {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.article {
-    text-align: center;
-    background-color: #062E37;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.article img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.article p {
-    margin: 10px 0;
-}
-
-.contact {
-    text-align: center;
-    padding: 50px 0;
-    background-color: white;
-    color: black;
-}
-
-form {
-    display: inline-block;
-    text-align: left;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #05424C;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #062E37;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #05424C;
-    color: white;
-}
-
-    </style>
+    <link rel="stylesheet" href="landing-page.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="quiz.jpg" alt="QuizBaj Logo">
+            <img src="Assets/logo.png" alt="QuizBaj Logo" >
         </div>
         <nav>
             <ul>
@@ -331,7 +19,7 @@ footer {
                 <li><a href="#">Blog</a></li>
             </ul>
         </nav>
-        <button class="contact-btn">Contact</button>
+        <button class="contact-btn">Login</button>
     </header>
     <main>
         <section class="hero">
@@ -345,7 +33,7 @@ footer {
                 <p class="active-users">NUMBER OF ACTIVE USERS RIGHT NOW <br><span>20,000+</span></p>
             </div>
             <div class="background-img">
-                <img src="quiz.jpg" alt="Quiz Illustration">
+                <img src="Assets/quiz-vintage-3d-lettering-vector.jpg" alt="Quiz Illustration">
             </div>
         </section>
     </main>
@@ -359,21 +47,21 @@ footer {
             <div class="step">
                 <div class="step-number">Step 1</div>
                 <div class="step-content">
-                    <img src="images/step1.png" alt="Image of Step 1">
+                    <img src="quiz.jpg" alt="Image of Step 1">
                     <p>Enter the Phone Number and Click Register</p>
                 </div>
             </div>
             <div class="step">
                 <div class="step-number">Step 2</div>
                 <div class="step-content">
-                    <img src="images/step2.png" alt="Image of Step 2">
+                    <img src="quiz.jpg" alt="Image of Step 2">
                     <p>Enter the Verification Code and click Verify.</p>
                 </div>
             </div>
             <div class="step">
                 <div class="step-number">Step 3</div>
                 <div class="step-content">
-                    <img src="images/step3.png" alt="Image of Step 3">
+                    <img src="quiz.jpg" alt="Image of Step 3">
                     <p>Enter your Info and click Play Quiz.</p>
                 </div>
             </div>
@@ -381,21 +69,21 @@ footer {
             <div class="step">
                 <div class="step-number">Step 4</div>
                 <div class="step-content">
-                    <img src="images/step4.png" alt="Image of Step 4">
+                    <img src="quiz.jpg" alt="Image of Step 4">
                     <p>Click on the subject</p>
                 </div>
             </div>
             <div class="step">
                 <div class="step-number">Step 5</div>
                 <div class="step-content">
-                    <img src="images/step5.png" alt="Image of Step 5">
+                    <img src="quiz.jpg" alt="Image of Step 5">
                     <p>A question will have four options</p>
                 </div>
             </div>
             <div class="step">
                 <div class="step-number">Step 6</div>
                 <div class="step-content">
-                    <img src="images/step6.png" alt="Image of Step 6">
+                    <img src="quiz.jpg" alt="Image of Step 6">
                     <p>Click right Option.</p>
                 </div>
             </div>
@@ -403,44 +91,28 @@ footer {
     </div>
 
     <header>
-        <h1>Lets Sharp Your Preparation</h1>
+        <h1 style="margin-left: 20px;">Lets Sharp Your Preparation</h1>
         <button class="explore-all">Explore All</button>
     </header>
     <section class="exam-categories">
         <div class="exam-card">
-            <div class="image-container">
-                <img src=" " alt="BCS Model Test Image">
-            </div>
-            <h2>BCS Model Test</h2>
-            <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam placerat tortor commodo lectus laoreet venenatis.</p>
+            <!-- <h2>General Knowledge</h2> -->
         </div>
-        <div class="exam-card primary-exam">
-            <h2>Primary Exam</h2>
-            <div class="image1">
-                <img src="" alt="">
-            </div>
+        <div class="exam-card maths">
+            <!-- <h2>Maths</h2> -->
         </div>
-        <div class="exam-card bank-exam">
-            <h2>Bank Exam</h2>
-            <div class="image1">
-                <img src="" alt="">
-            </div>
+        <div class="exam-card science">
+            <!-- <h2>Science</h2> -->
         </div>
-        <div class="exam-card nsi-exam">
-            <h2>NSI Exam</h2>
-            <div class="image1">
-                <img src="" alt="">
-            </div>
+        <div class="exam-card ssc">
+            <!-- <h2>Social Science</h2> -->
         </div>
-        <div class="exam-card railway-exam">
-            <h2>Railway Exam</h2>
-            <div class="image1">
-                <img src="" alt="">
-            </div>
+        <div class="exam-card history">
+            <!-- <h2>History</h2> -->
         </div>
     </section>
-    <header>
-        <h1>Winner Player</h1>
+    <!-- <header>
+        <h1 style="margin-left: 20px;">Winner Player</h1>
         <div class="winners">
             <div class="winner">
                 <img src="quiz.jpg" alt="Weekly Winner">
@@ -451,25 +123,40 @@ footer {
                 <p>Monthly Winner</p>
             </div>
         </div>
-    </header>
+    </header> -->
+
+    <div class="win">
+        <div class="main">
+            <h1>Winner</h1>
+            <h1>Player</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, pariatur.</p>
+        </div>
+        <div class="images">
+            <div class="box" id="i1">Weekly Winner</div>
+            <div class="box" id="i2"></div>
+            <div class="box" id="i3"></div>
+            <div class="box" id="i4">Monthly Winner</div>
+
+        </div>
+    </div>
     
     <section class="articles">
-        <h2>Check Latest Articles</h2>
+        <h1 style="color: white;">Check Latest Articles</h1>
         <div class="article-list">
             <div class="article">
                 <img src="quiz.jpg" alt="Article 1">
                 <p>Even the all-powerful Pointing has no control about</p>
-                <span>24 Jan 2024</span>
+                <span style="color: white;">24 Jan 2024</span>
             </div>
             <div class="article">
                 <img src="quiz.jpg" alt="Article 2">
                 <p>Almost unorthographic life One day however a small line</p>
-                <span>24 Jan 2024</span>
+                <span style="color: white;">24 Jan 2024</span>
             </div>
             <div class="article">
                 <img src="quiz.jpg" alt="Article 3">
                 <p>Lorem Ipsum decided to leave for the World of Grammar</p>
-                <span>24 Jan 2024</span>
+                <span style="color: white;">24 Jan 2024</span>
             </div>
         </div>
     </section>
