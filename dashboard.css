@@ -30,7 +30,8 @@ h2{
 
 .circle {
     border-radius: 100%;
-    width: 2.4%;
+    width: 40px;
+    height: 40px;
     /* border: 2px solid #1935CA; */
 }
 
@@ -147,8 +148,8 @@ a {
 
 .profile-pic {
     border-radius: 10px;
-    width: auto;
-    height: auto;
+    width: 16vw;
+    height: vw;
     border: 2px solid #1935CA;
 }
 
